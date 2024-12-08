@@ -1,18 +1,47 @@
-/* sidebar.component.css */
 mat-drawer-container {
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     display: flex;
     flex-direction: row;
   }
   
   mat-drawer {
-    width: 250px;  /* Set width of sidebar */
-    background-color: #f0f0f0;  /* Optional background */
+    width: 250px; 
+    background-color: #f0f0f0;  
   }
   
   mat-drawer-content {
-    flex: 1;  /* Take the remaining space */
-    padding: 20px; /* Add padding for content */
-    background-color: #fff;  /* Optional background */
+    flex: 1; 
+    padding: 20px; 
+    background-color: #fff;  
+  }
+
+  .user-profile {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 15px;
   }
   
+  .user-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .user-role {
+    font-size: 14px;
+    color: #1b1a1a;
+  }
+
+  .user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
