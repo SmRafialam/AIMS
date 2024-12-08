@@ -1,0 +1,15 @@
+.card-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .card-item mat-card-header {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .card-item mat-card-footer {
+    background-color: #fff;
+    padding: 10px;
+  }
