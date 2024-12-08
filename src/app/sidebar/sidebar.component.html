@@ -1,1 +1,108 @@
-<p>sidebar works!</p>
+<mat-drawer-container autosize>
+    <mat-drawer #drawer opened="true" mode="side">
+      <mat-nav-list>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>dashboard</mat-icon>
+            Dashboard
+          </button>
+        </mat-list-item>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>description</mat-icon>
+              Document
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+            <a mat-list-item routerLink="/search">
+              <mat-icon>search</mat-icon>
+              Search
+            </a>
+            <a mat-list-item routerLink="/advance-search">
+              <mat-icon>search</mat-icon>
+              Advance Search
+            </a>
+            <a mat-list-item routerLink="/create-document">
+              <mat-icon>create</mat-icon>
+              Create Document
+            </a>
+            <a mat-list-item routerLink="/import-document">
+              <mat-icon>file_upload</mat-icon>
+              Import Document
+            </a>
+          </mat-list>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-icon>tag</mat-icon>
+              Tags
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list>
+            <a mat-list-item routerLink="/tag-search">
+              <mat-icon>search</mat-icon>
+              Search
+            </a>
+            <a mat-list-item routerLink="/tag-advance-search">
+              <mat-icon>search</mat-icon>
+              Advance Search
+            </a>
+            <a mat-list-item routerLink="/create-tag">
+              <mat-icon>create</mat-icon>
+              Create Tag
+            </a>
+            <a mat-list-item routerLink="/import-tag">
+              <mat-icon>file_upload</mat-icon>
+              Import Tag
+            </a>
+          </mat-list>
+        </mat-expansion-panel>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>explore</mat-icon>
+            Data Explorer
+          </button>
+        </mat-list-item>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>integration</mat-icon>
+            Integration
+          </button>
+        </mat-list-item>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>work_outline</mat-icon>
+            Workflow
+          </button>
+        </mat-list-item>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>settings</mat-icon>
+            Administration
+          </button>
+        </mat-list-item>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>help_outline</mat-icon>
+            Help
+          </button>
+        </mat-list-item>
+        <mat-list-item>
+          <button mat-button>
+            <mat-icon>info</mat-icon>
+            About
+          </button>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+      <div>
+        <h1>Welcome to the Dashboard!</h1>
+      </div>
+      <div>
+        <img src="../../assets/images/bar-chart.png" alt="Bar Chart" width="910" height="575">
+      </div>
+    </mat-drawer-content>
+</mat-drawer-container>
