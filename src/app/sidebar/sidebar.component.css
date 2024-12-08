@@ -48,7 +48,7 @@ mat-drawer-container {
   
   .card-item {
     width: 395px;
-    height: 132px;
+    height: 140px;
     border: none;
     position: relative;
     display: flex;
@@ -58,18 +58,25 @@ mat-drawer-container {
     /* position: relative;  */
 
   }
+
+  .card-item mat-icon {
+    font-size: 24px; 
+    color: inherit; 
+  }
+  
   
   .card-header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 11px;
   }
   
   .count-label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
   
   .count {
@@ -91,7 +98,7 @@ mat-drawer-container {
   
   
   .footer-label {
-    text-align: center;
+    align-items: flex-start;
     font-size: 20px;
     font-weight: bold;
     color: #fcf9f9; 

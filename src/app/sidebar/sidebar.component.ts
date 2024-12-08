@@ -35,10 +35,10 @@ export class SidebarComponent {
   footerLabel!: string;
 
   cardItems = [
-    { count: 90, label: 'Documents', icon: 'file_copy', color: '#00bcd4', footerLabel: 'Count' },
-    { count: 21, label: 'Tags', icon: 'label', color: '#8bc34a', footerLabel: 'Count' },
-    { count: 25, label: 'Workflow', icon: 'settings', color: '#ffeb3b', footerLabel: 'Count' },
-    { count: 28, label: 'Tag Relation', icon: 'link', color: '#ff5252', footerLabel: 'Count' }
+    { count: 90, label: 'Documents', icon: 'file_copy', color: '#00A1F1', footerLabel: 'Count' },
+    { count: 21, label: 'Tags', icon: 'label', color: '#7CBB00', footerLabel: 'Count' },
+    { count: 25, label: 'Workflow', icon: 'settings', color: '#FFBB00', footerLabel: 'Count' },
+    { count: 28, label: 'Tag Relation', icon: 'link', color: '#F65314', footerLabel: 'Count' }
   ];
   
 }
