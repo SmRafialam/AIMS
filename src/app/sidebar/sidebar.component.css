@@ -96,6 +96,31 @@ mat-drawer-container {
     /* color: #000000; */
   }
   
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .chart-wrapper {
+    width: 48%;
+    text-align: center;
+  }
+  
+  .chart-box {
+    border: 2px solid #ccc; /* Border for charts */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .chart-label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+  }  
   
   .footer-label {
     align-items: flex-start;
